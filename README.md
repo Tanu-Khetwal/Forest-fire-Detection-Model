@@ -1,10 +1,10 @@
-# 🔥 Forest Fire Detection System
+#  Forest Fire Detection System
 
 An AI-powered system designed to detect and predict forest fires using Machine Learning. This project aims to provide early warning signals by analyzing environmental data and imagery to prevent large-scale ecological disasters.
 
 [Image of forest fire detection system architecture]
 
-## 📋 Table of Contents
+##  Table of Contents
 * [Features](#-features)
 * [How It Works](#-how-it-works)
 * [Dataset](#-dataset)
@@ -14,7 +14,7 @@ An AI-powered system designed to detect and predict forest fires using Machine L
 
 ---
 
-## 🌟 Features
+##  Features
 * **Real-time Image Classification:** Detects fire and smoke in images with high precision.
 * **Environmental Data Analysis:** Analyzes temperature, humidity, and wind speed to predict fire risks.
 * **Interactive Dashboard:** Built with **Streamlit** for easy image uploads and real-time visualization.
@@ -22,7 +22,7 @@ An AI-powered system designed to detect and predict forest fires using Machine L
 
 ---
 
-## 🛠️ How It Works
+##  How It Works
 The system processes input through a multi-stage pipeline:
 1. **Preprocessing:** Images are resized and normalized; tabular data is scaled.
 2. **Feature Extraction:** The model identifies patterns related to fire colors, smoke textures, and heat indexes.
@@ -32,14 +32,14 @@ The system processes input through a multi-stage pipeline:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 The model was trained using a combination of public datasets (such as Kaggle and NASA FIRMS).
 * **Classes:** `Fire`, `No Fire`.
 * **Format:** [e.g., RGB Images / CSV sensor logs].
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone the repository:**
    ```bash
@@ -58,8 +58,8 @@ OpenCV: Image processing and computer vision.
 Pandas & NumPy: Data analysis and manipulation.
 Streamlit: Frontend web application.
 
-🤝 Contributing
+ Contributing
 Contributions are welcome! If you have suggestions for improving the detection algorithm or adding new data sources, please open an issue or submit a pull request.
 
-📄 License
+ License
 This project is licensed under the MIT License - see the LICENSE file for details.
