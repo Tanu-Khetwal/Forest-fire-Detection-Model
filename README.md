@@ -51,7 +51,7 @@ Accuracy,97.8%
 Precision,96.5%
 Recall,98.2%
 
-🛠 Technologies Used
+ Technologies Used
 Python: Core programming.
 TensorFlow/Keras: Deep Learning framework.
 OpenCV: Image processing and computer vision.
